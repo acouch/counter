@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event){
-  var start = moment([2019, 10, 02]);
+  var start = moment([2019, 11, 17]);
   var now = moment(Date.now());
   let days = now.diff(start, 'days'); 
   var counter = document.getElementById("count");
